@@ -294,5 +294,6 @@ def total_correction(q_p, q_l, n_s, l, T, model, dx_p, dx_l, dx_ls):
     print('(delta)G_{DSC}=' + str(dg_dsc) + ' kJ/mol')
     print('=======================')
     print('(delta)G_{TOTAL}=' + str(dg_total) + ' kJ/mol')
+    print(' ')
 
     return dg_net, dg_usv, dg_dsc, dg_rip, dg_total
